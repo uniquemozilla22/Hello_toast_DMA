@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mShowCount = (TextView) findViewById(R.id.show_counts);
+        mShowCount = (TextView) findViewById(R.id.show_count);
     }
     public void showToast(View view) {
         Toast toast = Toast.makeText(this, R.string.toast_message, Toast.LENGTH_SHORT);
